@@ -1,6 +1,6 @@
 <h1 align="center">Proxy House</h1>
 
-<p align="center">A highly sophisticated proxy service using the UltraViolet Static to visit any sites, and bypasss restrictions<br><br></p>
+<p align="center">A highly sophisticated proxy service using the UltraViolet Static to visit any sites, and bypass restrictions<br><br></p>
 
 ## Features
 - Visit any sites and social media! (Support's most sites, including Youtube, Spotify, GeForce Now, Reddit, Discord, and more!)
@@ -19,4 +19,4 @@
 - [TOMP](https://github.com/tomphttp)
   
 
-  <p align="center">Made with ❤️ by <a href="https://www.brianwalczak.com">Briann</a></p>
+  <p align="center">Made with ♡ by <a href="https://www.brianwalczak.com">Briann</a></p>
