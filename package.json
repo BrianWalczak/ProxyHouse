@@ -1,19 +1,22 @@
 {
-  "dependencies": {
-    "bare-server-node": "github:tomphttp/bare-server-node",
-    "node-static": "^0.7.11"
-  },
-  "name": "uv-app",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Ultraviolet instance",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "proxy"
-  ],
+  "keywords": [],
   "author": "",
-  "license": "GPL-3.0-or-later"
+  "license": "ISC",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.0.3-deps2",
+    "@types/node": "^18.0.6",
+    "commander": "^9.4.0",
+    "dotenv": "^16.0.1",
+    "headers-polyfill": "^3.0.10",
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.2.6",
+    "node-static": "^0.7.11"
+  }
 }
