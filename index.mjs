@@ -25,5 +25,9 @@ server.on('upgrade', (req, socket, head) => {
 });
 
 server.listen({
-	port: process.env.PORT || 8080,
+	port: process.env.PORT || 3000,
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 23b569f824f0ca6f27e322279ad5df31916b18e1
