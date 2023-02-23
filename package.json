@@ -29,7 +29,7 @@
     "wordwrap": "^0.0.3"
   },
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
