@@ -17,7 +17,7 @@ $ cd ProxyHouse
 $ npm install
 $ npm start
 ```
-Once you run ``node .``, the web server will run on port 3000
+Once you run ``npm start``, the web server will run on port 3000
 
 # Authors
 
