@@ -15,7 +15,7 @@ To setup a ProxyHouse server, enter the following commands into your terminal:
 $ git clone https://github.com/BrianWalczak/ProxyHouse.git
 $ cd ProxyHouse
 $ npm install
-$ node .
+$ npm start
 ```
 Once you run ``node .``, the web server will run on port 3000
 
