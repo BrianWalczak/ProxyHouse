@@ -4,7 +4,7 @@
   "description": "A highly sophisticated proxy service using the UltraViolet Static to visit any sites, and bypass restrictions",
   "main": "index.js",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^1.2.2",
+    "@tomphttp/bare-server-node": "^1.2.5",
     "colors": "^1.4.0",
     "commander": "^9.4.0",
     "data-uri-to-buffer": "^4.0.0",
