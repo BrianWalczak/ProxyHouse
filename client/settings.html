@@ -5,6 +5,98 @@
   <meta charset="utf-8">
   <title>Proxy House</title>
   <link href="/index.css" rel="stylesheet">
+	<link id="favicon" rel="shortcut icon" type="image/png" href="/favicon.png" />
+	<script src="checkSettings.js"></script>
+
+	<style>
+		.settings_container {
+			border: 2px solid rgba(253, 253, 253, 0.514);
+			box-shadow: 0 8px 8px -4px black;
+			border-radius: 5px;
+			padding: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			height: 165px;
+			width: 330px;
+			display: inline-block;
+			float: left;
+
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		.settings_container h2 {
+			color: white;
+			margin: 0;
+		}
+
+		.settings_container p {
+			color: rgba(253, 253, 253, 0.514);
+			margin: 0;
+		}
+	</style>
+
+	<style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
 </head>
 
 
@@ -16,12 +108,31 @@
 	<a class="defBtn" href="/web.html">Web Proxy</a>
 </div>
 
-<div id="contents" style="margin-top:10rem;">
+<div id="contents" style="margin: 0 auto; margin-top:3rem; display: table;">
 	<center>
-		<h1 style="color:white;">Page Unavailable</h1>
-		<p style="margin:0; color:rgba(253, 253, 253, 0.514);">This page is currently under construction. But don't worry! We'll have it up and running in no time</p>
-		<a class="defBtn" onclick="history.back()">Go Back</a>
+		<div class="settings_container">
+			<h2>Page Disguiser</h2>
+			<p>Disguise the tab to look like Google Classroom</p>
+			<br><br>
+			
+			<label class="switch">
+				<input type="checkbox" id="page_disguiser" onclick="updateSettings()">
+				<span class="slider round"></span>
+			</label>
+		</div>
+		
+		<div class="settings_container">
+			<h2>Cloak Mode</h2>
+			<p>Prevents extensions from viewing the link</p>
+			<br><br>
+			
+			<label class="switch">
+				<input type="checkbox" id="cloak_mode" onclick="updateSettings()">
+				<span class="slider round"></span>
+			</label>
+		</div>
 	</center>
 </div>
 
+<script src="settings.js"></script>
 </html>
