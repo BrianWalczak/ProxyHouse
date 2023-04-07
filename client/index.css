@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap'); /*Regular Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap'); /*Bold Font*/
+  
+/*Fade-in Animation*/
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+  
+body {
+	animation: fadeInAnimation ease-in-out 0.3s; /*Fade-in Animation*/
+  font-family: 'Inter', sans-serif; /*Default Font*/
+  background-color: #101112; /*Background Color*/
+  margin: 0; /*Remove Margins*/
+}
+  
+/*Default Button Style*/
+.defBtn {
+	border: none;
+  border-radius: 13px;
+  padding: 13.5px 25px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(130deg, rgba(249,205,36,1) 15%, rgba(246,100,73,1) 70%, rgba(246,91,76,1) 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/*Top-navigation*/
+.header p {
+	color:white;
+  font-size:23px;
+  float:left;
+  margin-top:27px;
+  margin-bottom:20px;
+  margin-left:50px;
+}
+  
+.header {
+	overflow: hidden;
+  background-color: none;
+  border-bottom: 1px solid rgba(207, 207, 207, .2);
+}
+
+.header a {
+	float: right;
+}

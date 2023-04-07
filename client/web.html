@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Proxy House</title>
+	<link href="/index.css" rel="stylesheet">
+	<script src="/uv/uv.bundle.js"></script>
+  <script src="/uv/uv.config.js"></script>
+	
+	<style>
+		form input {
+			background: none;
+			font-family: inherit;
+			padding: 0px 17px;
+			height: 48px;
+			border: 1px solid rgb(255, 255, 255, .2);
+			color: var(--text-color);
+			border-radius: 3px;
+			outline: none;
+			width: 350px;
+			margin-top: 5px;
+			border-radius: 50px;
+			color: #FFF;
+		}
+		
+		form input:focus {
+			border: 1px solid rgba(253, 253, 253, 0.514);
+			border-radius: 6px;
+			animation: fadeInAnimation ease-in-out 0.3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+	</style>
+</head>
+
+
+<div class="header">
+	<p>Proxy House</p>
+
+	<a class="defBtn" href="/settings.html">Settings</a>
+	<a class="defBtn" href="/sites.html">Sites</a>
+	<a class="defBtn" href="/web.html">Web Proxy</a>
+</div>
+
+<div id="contents" style="margin-top:10rem;">
+	<center>
+		<h1 style="color:white;">Proxy House</h1>
+		<p style="margin:0; color:rgba(253, 253, 253, 0.514);">Ditch the restrictions, move to proxies.</p><br><br>
+		
+		<form><input placeholder="URL or Search Term"></form>
+	</center>
+</div>
+
+<script src="web.js"></script>
+</html>
