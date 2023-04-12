@@ -4,7 +4,7 @@
 
 ## Features
 - Visit any sites and social media! Support's most sites, including Spotify, Discord, Roblox, Reddit, TikTok, and more!
-- Allows you to disguise the tab to look like Google Classroom, and prevents extensions from viewing the link
+- Allows you to disguise the tab to look like Google Classroom, and lets you prevents extensions from viewing the link
 - Support's Captcha + hCaptcha robot detection
 - Powered by Ultraviolet
 
