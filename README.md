@@ -4,8 +4,8 @@
 
 ## Features
 - Visit any sites and social media! (Support's most sites, including Spotify, Discord, Roblox, Reddit, TikTok, and more!)
+- Allows you to disguise the tab to look like Google Classroom, and prevents extensions from viewing the link
 - Support's Captcha + hCaptcha robot detection
-- Play games with your favorite game sites, including CrazyGames, Yandex Games, AddictingGames, GeForce Now, and much more!
 - Powered by Ultraviolet
 
 ## Installation
