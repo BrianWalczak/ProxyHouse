@@ -3,7 +3,7 @@
 <p align="center">A highly sophisticated proxy service to visit any sites, and bypass restrictions<br><br></p>
 
 ## Features
-- Visit any sites and social media! (Support's most sites, including Spotify, Discord, Roblox, Reddit, TikTok, and more!)
+- Visit any sites and social media! Support's most sites, including Spotify, Discord, Roblox, Reddit, TikTok, and more!
 - Allows you to disguise the tab to look like Google Classroom, and prevents extensions from viewing the link
 - Support's Captcha + hCaptcha robot detection
 - Powered by Ultraviolet
