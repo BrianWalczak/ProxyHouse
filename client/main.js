@@ -11,7 +11,7 @@ async function register() {
   });
 }
 
-async function search() {
+async function search(query) {
   try {
     await register();
   } catch (err) {
@@ -19,7 +19,7 @@ async function search() {
     return console.error(err);
   }
   
-  let url = input.value.trim();
+  let url = query.trim();
   if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
   else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
   
