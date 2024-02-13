@@ -17,7 +17,7 @@ form.addEventListener('submit', async event => {
     document.body.appendChild(iframe);
   } else {
     win = window.open();
-		win.document.body.style.margin = '0';
+    win.document.body.style.margin = '0';
     win.document.body.style.height = '100vh';
 
     var iframe = win.document.createElement('iframe');
@@ -28,7 +28,7 @@ form.addEventListener('submit', async event => {
     iframe.src = proxiedUrl;
     win.document.body.appendChild(iframe);
 
-		// Checking if the disguiser is enabled
+    // Checking if the disguiser is enabled
     if(getSetting('page_disguiser') == true) {
       win.document.title = "Classes";
       
