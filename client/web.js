@@ -2,8 +2,8 @@ const form = document.querySelector('form');
 const input = document.querySelector('input');
 
 form.addEventListener('submit', async event => {
-	event.preventDefault();
-	const proxiedUrl = await search(input.value);
+  event.preventDefault();
+  const proxiedUrl = await search(input.value);
   
   if(getSetting("cloak_mode") == false) {
     document.body.innerHTML = '<head><link id="favicon" rel="shortcut icon" type="image/png" /></head>'; //Reset documents contents but add favicon item
