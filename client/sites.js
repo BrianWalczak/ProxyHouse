@@ -1,4 +1,4 @@
-function launch(link) {
+async function launch(link) {
   const proxiedUrl = await search(link);
 
   if(getSetting("cloak_mode") == false) {
