@@ -8,6 +8,7 @@ import { hostname } from "node:os";
 const bare = createBareServer("/bare/");
 const app = express();
 
+app.use(express.static('client'));
 app.use("/uv/", express.static(uvPath));
 const server = createServer();
 
