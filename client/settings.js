@@ -5,7 +5,7 @@ function updateSettings() {
 		if(document.getElementById(mode).checked) {
 			localStorage.setItem(mode, 'true')
 		}else{
-			localStorage.removeItem(mode)
+			localStorage.setItem(mode, 'false')
 		}
 	});
 
@@ -13,7 +13,7 @@ function updateSettings() {
 }
 
 settings.forEach((mode) => {
-	if(localStorage.getItem(mode)) {
+	if(localStorage.getItem(mode) == 'true') {
 		document.getElementById(mode).setAttribute('checked', '')
 	}
 });
