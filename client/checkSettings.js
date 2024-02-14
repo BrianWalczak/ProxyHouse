@@ -1,18 +1,18 @@
 function getSetting(mode) {
-	if(localStorage.getItem(mode) == 'true') {
+	if(localStorage.getItem(mode)) {
 		return true;
 	}else{
 		return false;
 	}
 }
 
-if(getSetting('page_disguiser') == true) {
+if(getSetting('page_disguiser')) {
 	document.title = "Classes";
 	
 	document.getElementById("favicon").href = "https://ssl.gstatic.com/classroom/favicon.png"
 }
 
-if(getSetting('prevent_close') == true) {
+if(getSetting('prevent_close')) {
 	window.addEventListener('beforeunload', function(e) {
     e.preventDefault();
     
