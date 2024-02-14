@@ -1,5 +1,5 @@
 function getSetting(mode) {
-	if(localStorage.getItem(mode)) {
+	if(localStorage.getItem(mode) == 'true') {
 		return true;
 	}else{
 		return false;
