@@ -1,4 +1,4 @@
-var settings = [ "page_disguiser", "cloak_mode" ];
+var settings = [ "page_disguiser", "cloak_mode", "prevent_close" ];
 
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
